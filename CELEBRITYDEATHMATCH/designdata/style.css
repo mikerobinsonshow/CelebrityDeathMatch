@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: relative;    
+    font-family: "Roboto", "sans-serif";
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+    overflow: hidden;
+    font-size: 0.1em;
+    line-height: 0;
+}
+h2 { margin: 0; }
+/* Header */
+header {
+    background-color: #222222;
+    height: 68px;
+    padding: 5px;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 12px 10px 5px 10px;
+}
+.nav { margin: 0 auto; }
+
+/* Style the top navigation bar */
+.leftnav {
+    float: left;
+    padding: 26px 0 20px 5px;
+}
+
+.leftnav ul {
+    margin: 0;
+    padding-left: 5px;
+}
+
+/* Style the topnav links */
+.leftnav ul li{
+    display: inline;
+    margin-right: 8px;
+    height: 68px;
+}
+.leftnav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.rightnav {
+    float: right;
+    margin-right: 20px;
+}
+
+.rightnav li{
+    display: inline;
+    margin-right: 8px;
+    height: 68px;
+}
+.rightnav li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.rightnav ul li img {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.coinbtn {
+    border-left: 2px dotted #999;
+    padding: 10px 12px;
+}
+
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Index page */
+/* Style the content */
+#container {
+    background-color: #DEDEDE;
+    width: 100%;
+    padding-bottom: 2em;
+    margin: 0;
+}
+#mainimg {
+    background-color: #0A0A0A;
+    text-align: center;
+}
+
+#mainimg img {
+   
+}
+#howto {
+    margin: 0;
+    padding: 10px 10px;
+    background-color: #FF0000;
+}
+
+#howto h2 {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.howbox {
+    display: block;
+    width: 340px;
+    background-color: #EEE;
+    float: left;
+    margin: 0 15px 0 10px;
+}
+
+.howbox h3{
+    border: 1px solid #333;
+    font-size: 14px;
+    background-color: #333;
+    padding: 6px;
+    color: #EEE;
+    margin: 0;
+}
+
+.howbox p{
+    margin: 0;
+    padding: 12px;
+
+}
+.goplay {
+    background-color: #DEDEDE;
+    padding: 20px;
+    text-align: center;
+}
+
+.goplay p{ padding: 20px; }
+
+.bigbtn{
+    width:50%;
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:8px 0 10px;
+    color:#fff;
+    background-color:#FF0000;
+    margin: 0 auto;
+    border-radius: 10px;
+    letter-spacing: 0.8px;
+}
+
+/* Footer  */
+footer {
+    background-color: #626262;
+    padding: 20px 10px;
+    color: #EEE;
+    font-size: 13px;
+    width: 100%;    
+    bottom: 0;
+    height: 50px;
+}
+footer p{ margin: 0; }
+footer a{ color: #EEE; }
+
+/* Privacy Policy */
+.pv {
+    padding: 15px 40px;
+    background-color: #EEE;
+}
+.pv h2 {
+    color: #FF0000;
+    font-size: 26px;
+    text-align: center;
+}
+.pv h3 {
+    color: #FF0000;
+    font-size: 20px;
+}
+
+
+/* Stat page  */
+#stat {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#stat td, #stat th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#stat tr:nth-child(even){background-color: #f2f2f2;}
+ tr:hover {background-color: #ddd;}
+
+#stat th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Login page */
+.login {
+    width: 40%;
+    margin: 15px auto;
+    background-color: #f7f7f7;
+    color: #757575;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 30px;
+    min-height: calc(80vh - 70px);
+}
+
+.login h2 {
+    font-size: 30px;
+    margin: 20px auto;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.regisFrm input[type="text"], .regisFrm input[type="email"], .regisFrm input[type="password"] {
+    width: 94.5%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.regisFrm textarea { height: 100px; }
+.regisFrm ::-webkit-input-placeholder { color: #666; }
+.regisFrm ::-moz-placeholder { color: #666; }
+.regisFrm ::-moz-placeholder { color: #666; }
+.regisFrm ::-ms-input-placeholder { color: #666; }
+
+.send-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.send-button input[type="submit"] {
+    padding: 10px 0;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+.send-button input[type="submit"]:hover {
+    background-color: #055d54;
+}
+
+a.logout{float: right;}
+p.success{color:#34A853;}
+p.error{color:#EA4335;}
+
+/* match up page */
+#matchup {
+   background-image: url("images/stagebg.png");
+   background-color: #cccccc;
+}
+#matchup h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.chArea {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+}
+.firstchoice {
+    float: left;
+}
+
+.secondchoice{
+    float: right;
+    margin-left: 20px;
+}
+.firstchoice h3, .secondchoice h3{
+   text-align: center;
+}
+.acimg {
+    width: 50%;
+}
+
+/* shopping page */
+#shop {
+    
+}
+.shopmain {
+    width: 60%;
+    margin: 0 auto;
+}
+.shopmain h2 {
+    color: #FF0000;
+    text-align: center;
+}
+.shopmain table{
+    text-align: center;
+    width: 100%;
+   border-width: 1px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.shopmain td{
+    padding: 10px;
+    border-width: 2px;
+    border-color: #CCC;
+    border-style: solid;
+}
+
+/* matchup page */
